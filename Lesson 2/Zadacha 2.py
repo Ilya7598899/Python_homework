@@ -10,6 +10,6 @@ pr = 1
 spisok=[]
 for i in range(1,n+1):
       pr = pr*i
-      spisok[i] = pr
+      spisok.append(pr)
 
 print(spisok)
