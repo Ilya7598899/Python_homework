@@ -85,7 +85,7 @@ def bot_step(message):
         field[pl[0]][pl[1]] = players[True][0]
         plus_step()
         reverse_hod()
-        # убрал пока доску бота, т.к. потом юзер увидит на своей клавиатуре,только если не крайний ход бота
+        # здесь пока доска бота, т.к. потом юзер увидит на своей клавиатуре,только если не крайний ход бота
         text = print_field(field)
         # bot.send_message(message.chat.id,f"Игровое поле:\n{text}")
         if check_win(field, players[True][0]):
